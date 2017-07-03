@@ -10,15 +10,16 @@
 		04561994D442D492A5956CDA /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B056F81D4983A0F92711CC /* Pods_Makestagram.framework */; };
 		49367E251F069CB90097BCD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E241F069CB90097BCD4 /* AppDelegate.swift */; };
 		49367E2C1F069CB90097BCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49367E2B1F069CB90097BCD4 /* Assets.xcassets */; };
-		49367E391F06C65C0097BCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49367E381F06C65C0097BCD4 /* Main.storyboard */; };
 		49367E3B1F06C66B0097BCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49367E3A1F06C66B0097BCD4 /* LaunchScreen.storyboard */; };
-		49367E3D1F06C6780097BCD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E3C1F06C6780097BCD4 /* ViewController.swift */; };
 		49367E411F06C68E0097BCD4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49367E401F06C68E0097BCD4 /* GoogleService-Info.plist */; };
 		49367E461F06D06E0097BCD4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49367E451F06D06E0097BCD4 /* Login.storyboard */; };
 		49367E481F06D11F0097BCD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E471F06D11F0097BCD4 /* LoginViewController.swift */; };
 		49367E4B1F0A8D610097BCD4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E4A1F0A8D610097BCD4 /* User.swift */; };
 		49367E4D1F0A9A0A0097BCD4 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E4C1F0A9A0A0097BCD4 /* CreateUsernameViewController.swift */; };
 		49367E501F0AA4D70097BCD4 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E4F1F0AA4D70097BCD4 /* UserService.swift */; };
+		49367E521F0AC7CE0097BCD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E511F0AC7CE0097BCD4 /* Constants.swift */; };
+		49367E551F0ACEE90097BCD4 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E541F0ACEE90097BCD4 /* Storyboard+Utility.swift */; };
+		49367E571F0AD84E0097BCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49367E561F0AD84E0097BCD4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +27,7 @@
 		49367E211F069CB90097BCD4 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49367E241F069CB90097BCD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49367E2B1F069CB90097BCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		49367E381F06C65C0097BCD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		49367E3A1F06C66B0097BCD4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		49367E3C1F06C6780097BCD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
 		49367E3E1F06C6870097BCD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		49367E401F06C68E0097BCD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		49367E451F06D06E0097BCD4 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,9 @@
 		49367E4A1F0A8D610097BCD4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		49367E4C1F0A9A0A0097BCD4 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		49367E4F1F0AA4D70097BCD4 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
+		49367E511F0AC7CE0097BCD4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Supporting/Constants.swift; sourceTree = "<group>"; };
+		49367E541F0ACEE90097BCD4 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Extensions/Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		49367E561F0AD84E0097BCD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		748FD9D2BC0A1725E5A65C47 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		D4B056F81D4983A0F92711CC /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 		49367E231F069CB90097BCD4 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				49367E531F0ACECC0097BCD4 /* Extensions */,
 				49367E4E1F0AA4A30097BCD4 /* Services */,
 				49367E241F069CB90097BCD4 /* AppDelegate.swift */,
 				49367E421F06C9D60097BCD4 /* View Controllers */,
@@ -87,7 +90,6 @@
 		49367E421F06C9D60097BCD4 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				49367E3C1F06C6780097BCD4 /* ViewController.swift */,
 				49367E471F06D11F0097BCD4 /* LoginViewController.swift */,
 				49367E4C1F0A9A0A0097BCD4 /* CreateUsernameViewController.swift */,
 			);
@@ -97,7 +99,7 @@
 		49367E431F06C9F30097BCD4 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				49367E381F06C65C0097BCD4 /* Main.storyboard */,
+				49367E561F0AD84E0097BCD4 /* Main.storyboard */,
 				49367E451F06D06E0097BCD4 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -109,6 +111,7 @@
 				49367E401F06C68E0097BCD4 /* GoogleService-Info.plist */,
 				49367E3E1F06C6870097BCD4 /* Info.plist */,
 				49367E3A1F06C66B0097BCD4 /* LaunchScreen.storyboard */,
+				49367E511F0AC7CE0097BCD4 /* Constants.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,6 +130,14 @@
 				49367E4F1F0AA4D70097BCD4 /* UserService.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		49367E531F0ACECC0097BCD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49367E541F0ACEE90097BCD4 /* Storyboard+Utility.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		552A57940F3D0E72AD5C706A /* Pods */ = {
@@ -210,10 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49367E3B1F06C66B0097BCD4 /* LaunchScreen.storyboard in Resources */,
+				49367E571F0AD84E0097BCD4 /* Main.storyboard in Resources */,
 				49367E411F06C68E0097BCD4 /* GoogleService-Info.plist in Resources */,
 				49367E2C1F069CB90097BCD4 /* Assets.xcassets in Resources */,
 				49367E461F06D06E0097BCD4 /* Login.storyboard in Resources */,
-				49367E391F06C65C0097BCD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +286,8 @@
 				49367E4B1F0A8D610097BCD4 /* User.swift in Sources */,
 				49367E481F06D11F0097BCD4 /* LoginViewController.swift in Sources */,
 				49367E501F0AA4D70097BCD4 /* UserService.swift in Sources */,
-				49367E3D1F06C6780097BCD4 /* ViewController.swift in Sources */,
+				49367E551F0ACEE90097BCD4 /* Storyboard+Utility.swift in Sources */,
+				49367E521F0AC7CE0097BCD4 /* Constants.swift in Sources */,
 				49367E4D1F0A9A0A0097BCD4 /* CreateUsernameViewController.swift in Sources */,
 				49367E251F069CB90097BCD4 /* AppDelegate.swift in Sources */,
 			);
