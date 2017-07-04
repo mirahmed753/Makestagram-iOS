@@ -22,6 +22,7 @@
 		49367E571F0AD84E0097BCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49367E561F0AD84E0097BCD4 /* Main.storyboard */; };
 		49367E5D1F0BEF5B0097BCD4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E5C1F0BEF5B0097BCD4 /* HomeViewController.swift */; };
 		49367E5F1F0BEF960097BCD4 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E5E1F0BEF960097BCD4 /* FindFriendsViewController.swift */; };
+		494DFA6C1F0C210400C6EAD9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA6B1F0C210400C6EAD9 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		49367E561F0AD84E0097BCD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		49367E5C1F0BEF5B0097BCD4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = "<group>"; };
 		49367E5E1F0BEF960097BCD4 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsViewController.swift; path = Controllers/FindFriendsViewController.swift; sourceTree = "<group>"; };
+		494DFA6B1F0C210400C6EAD9 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = Controllers/MainTabBarController.swift; sourceTree = "<group>"; };
 		748FD9D2BC0A1725E5A65C47 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		D4B056F81D4983A0F92711CC /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,10 +96,11 @@
 		49367E421F06C9D60097BCD4 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				49367E471F06D11F0097BCD4 /* LoginViewController.swift */,
-				49367E4C1F0A9A0A0097BCD4 /* CreateUsernameViewController.swift */,
 				49367E5C1F0BEF5B0097BCD4 /* HomeViewController.swift */,
 				49367E5E1F0BEF960097BCD4 /* FindFriendsViewController.swift */,
+				49367E471F06D11F0097BCD4 /* LoginViewController.swift */,
+				49367E4C1F0A9A0A0097BCD4 /* CreateUsernameViewController.swift */,
+				494DFA6B1F0C210400C6EAD9 /* MainTabBarController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				49367E4B1F0A8D610097BCD4 /* User.swift in Sources */,
 				49367E481F06D11F0097BCD4 /* LoginViewController.swift in Sources */,
+				494DFA6C1F0C210400C6EAD9 /* MainTabBarController.swift in Sources */,
 				49367E501F0AA4D70097BCD4 /* UserService.swift in Sources */,
 				49367E5D1F0BEF5B0097BCD4 /* HomeViewController.swift in Sources */,
 				49367E551F0ACEE90097BCD4 /* Storyboard+Utility.swift in Sources */,

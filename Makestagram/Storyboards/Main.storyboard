@@ -33,7 +33,7 @@
         <!--Find Friends View Controller-->
         <scene sceneID="Cuz-dX-4ZV">
             <objects>
-                <viewController title="Find Friends View Controller" id="cXW-c1-WNE" sceneMemberID="viewController">
+                <viewController title="Find Friends View Controller" id="cXW-c1-WNE" customClass="FindFriendsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="onB-pJ-rO4"/>
                         <viewControllerLayoutGuide type="bottom" id="NFm-c2-F8F"/>
@@ -54,7 +54,7 @@
         <!--Home View Controller-->
         <scene sceneID="yu1-go-ZlT">
             <objects>
-                <viewController title="Home View Controller" id="vlu-d2-Lwz" sceneMemberID="viewController">
+                <viewController title="Home View Controller" id="vlu-d2-Lwz" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fhA-Ip-Q6V"/>
                         <viewControllerLayoutGuide type="bottom" id="ZD8-sy-cOt"/>
@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="76" y="-443"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="hdI-cX-iqv">
             <objects>
-                <tabBarController id="tet-im-8Iz" sceneMemberID="viewController">
+                <tabBarController id="tet-im-8Iz" customClass="MainTabBarController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="ISC-jY-tIM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
