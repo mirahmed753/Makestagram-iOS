@@ -29,6 +29,8 @@
 		494DFA751F0D4F8000C6EAD9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA741F0D4F8000C6EAD9 /* Post.swift */; };
 		494DFA771F0D556E00C6EAD9 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA761F0D556E00C6EAD9 /* UIImage+Size.swift */; };
 		494DFA791F0D57B000C6EAD9 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA781F0D57B000C6EAD9 /* StorageReference+Post.swift */; };
+		494DFA7B1F0D621400C6EAD9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DFA7A1F0D621300C6EAD9 /* Home.storyboard */; };
+		494DFA7E1F0D783B00C6EAD9 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA7D1F0D783B00C6EAD9 /* PostImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		494DFA741F0D4F8000C6EAD9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Models/Post.swift; sourceTree = "<group>"; };
 		494DFA761F0D556E00C6EAD9 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Size.swift"; path = "Extensions/UIImage+Size.swift"; sourceTree = "<group>"; };
 		494DFA781F0D57B000C6EAD9 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StorageReference+Post.swift"; path = "Extensions/StorageReference+Post.swift"; sourceTree = "<group>"; };
+		494DFA7A1F0D621300C6EAD9 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
+		494DFA7D1F0D783B00C6EAD9 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageCell.swift; path = Views/PostImageCell.swift; sourceTree = "<group>"; };
 		748FD9D2BC0A1725E5A65C47 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		D4B056F81D4983A0F92711CC /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +97,7 @@
 		49367E231F069CB90097BCD4 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				494DFA7C1F0D780500C6EAD9 /* Views */,
 				494DFA6F1F0C362900C6EAD9 /* Helpers */,
 				49367E531F0ACECC0097BCD4 /* Extensions */,
 				49367E4E1F0AA4A30097BCD4 /* Services */,
@@ -122,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				49367E561F0AD84E0097BCD4 /* Main.storyboard */,
+				494DFA7A1F0D621300C6EAD9 /* Home.storyboard */,
 				49367E451F06D06E0097BCD4 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -173,6 +179,14 @@
 				494DFA6D1F0C361100C6EAD9 /* MGPhotoHelper.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		494DFA7C1F0D780500C6EAD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				494DFA7D1F0D783B00C6EAD9 /* PostImageCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		552A57940F3D0E72AD5C706A /* Pods */ = {
@@ -258,6 +272,7 @@
 				49367E3B1F06C66B0097BCD4 /* LaunchScreen.storyboard in Resources */,
 				49367E571F0AD84E0097BCD4 /* Main.storyboard in Resources */,
 				49367E411F06C68E0097BCD4 /* GoogleService-Info.plist in Resources */,
+				494DFA7B1F0D621400C6EAD9 /* Home.storyboard in Resources */,
 				49367E2C1F069CB90097BCD4 /* Assets.xcassets in Resources */,
 				49367E461F06D06E0097BCD4 /* Login.storyboard in Resources */,
 			);
@@ -324,6 +339,7 @@
 				494DFA6C1F0C210400C6EAD9 /* MainTabBarController.swift in Sources */,
 				49367E501F0AA4D70097BCD4 /* UserService.swift in Sources */,
 				494DFA751F0D4F8000C6EAD9 /* Post.swift in Sources */,
+				494DFA7E1F0D783B00C6EAD9 /* PostImageCell.swift in Sources */,
 				494DFA771F0D556E00C6EAD9 /* UIImage+Size.swift in Sources */,
 				49367E5D1F0BEF5B0097BCD4 /* HomeViewController.swift in Sources */,
 				494DFA6E1F0C361100C6EAD9 /* MGPhotoHelper.swift in Sources */,
