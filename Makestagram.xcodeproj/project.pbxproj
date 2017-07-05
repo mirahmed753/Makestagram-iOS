@@ -23,6 +23,7 @@
 		49367E5D1F0BEF5B0097BCD4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E5C1F0BEF5B0097BCD4 /* HomeViewController.swift */; };
 		49367E5F1F0BEF960097BCD4 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49367E5E1F0BEF960097BCD4 /* FindFriendsViewController.swift */; };
 		494DFA6C1F0C210400C6EAD9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA6B1F0C210400C6EAD9 /* MainTabBarController.swift */; };
+		494DFA6E1F0C361100C6EAD9 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA6D1F0C361100C6EAD9 /* MGPhotoHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		49367E5C1F0BEF5B0097BCD4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = "<group>"; };
 		49367E5E1F0BEF960097BCD4 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsViewController.swift; path = Controllers/FindFriendsViewController.swift; sourceTree = "<group>"; };
 		494DFA6B1F0C210400C6EAD9 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = Controllers/MainTabBarController.swift; sourceTree = "<group>"; };
+		494DFA6D1F0C361100C6EAD9 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGPhotoHelper.swift; path = Helpers/MGPhotoHelper.swift; sourceTree = "<group>"; };
 		748FD9D2BC0A1725E5A65C47 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		D4B056F81D4983A0F92711CC /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 		49367E231F069CB90097BCD4 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				494DFA6F1F0C362900C6EAD9 /* Helpers */,
 				49367E531F0ACECC0097BCD4 /* Extensions */,
 				49367E4E1F0AA4A30097BCD4 /* Services */,
 				49367E241F069CB90097BCD4 /* AppDelegate.swift */,
@@ -147,6 +150,14 @@
 				49367E541F0ACEE90097BCD4 /* Storyboard+Utility.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		494DFA6F1F0C362900C6EAD9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				494DFA6D1F0C361100C6EAD9 /* MGPhotoHelper.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		552A57940F3D0E72AD5C706A /* Pods */ = {
@@ -297,6 +308,7 @@
 				494DFA6C1F0C210400C6EAD9 /* MainTabBarController.swift in Sources */,
 				49367E501F0AA4D70097BCD4 /* UserService.swift in Sources */,
 				49367E5D1F0BEF5B0097BCD4 /* HomeViewController.swift in Sources */,
+				494DFA6E1F0C361100C6EAD9 /* MGPhotoHelper.swift in Sources */,
 				49367E551F0ACEE90097BCD4 /* Storyboard+Utility.swift in Sources */,
 				49367E5F1F0BEF960097BCD4 /* FindFriendsViewController.swift in Sources */,
 				49367E521F0AC7CE0097BCD4 /* Constants.swift in Sources */,

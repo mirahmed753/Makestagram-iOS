@@ -18,4 +18,10 @@ struct Constants {
         static let uid = "uid"
         static let username = "username"
     }
+    
+    struct imagePicker {
+        static let takePhoto = "Take Photo"
+        static let uploadFromLibrary = "Upload from Library"
+        static let cancel = "Cancel"
+    }
 }
