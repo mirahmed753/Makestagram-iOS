@@ -41,24 +41,6 @@ class CreateUsernameViewController: UIViewController {
             self.view.window?.rootViewController = initialViewController
             self.view.window?.makeKeyAndVisible()
             
-//            let storyboard = UIStoryboard(name: "Main", bundle: .main)
-//            if let initialViewController = storyboard.instantiateInitialViewController() {
-//                self.view.window?.rootViewController = initialViewController
-//                self.view.window?.makeKeyAndVisible()
-//            }
         }
-        
-//        UserService.create(firUser, username: username) { (user) in
-//            guard let _ = user else {
-//                return
-//            }
-//            
-//            let storyboard = UIStoryboard(name: "Main", bundle: .main)
-//            
-//            if let initialViewController = storyboard.instantiateInitialViewController() {
-//                self.view.window?.rootViewController = initialViewController
-//                self.view.window?.makeKeyAndVisible()
-//            }
-//        }
     }
 }

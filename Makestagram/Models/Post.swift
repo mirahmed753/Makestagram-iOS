@@ -16,6 +16,7 @@ class Post {
     let imageURL: String
     let imageHeight: CGFloat
     let creationDate: Date
+    
     var dictValue: [String : Any] {
         let createdAgo = creationDate.timeIntervalSince1970
         
