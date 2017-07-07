@@ -33,6 +33,10 @@
 		494DFA7E1F0D783B00C6EAD9 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA7D1F0D783B00C6EAD9 /* PostImageCell.swift */; };
 		494DFA801F0E761300C6EAD9 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA7F1F0E761300C6EAD9 /* PostHeaderCell.swift */; };
 		494DFA821F0E79CE00C6EAD9 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA811F0E79CE00C6EAD9 /* PostActionCell.swift */; };
+		494DFA841F0EA1A000C6EAD9 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA831F0EA1A000C6EAD9 /* LikeService.swift */; };
+		494DFA861F0EBC4500C6EAD9 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA851F0EBC4500C6EAD9 /* FollowService.swift */; };
+		494DFA881F0EC59F00C6EAD9 /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DFA871F0EC59F00C6EAD9 /* FindFriends.storyboard */; };
+		494DFA8A1F0EC79C00C6EAD9 /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DFA891F0EC79C00C6EAD9 /* FindFriendsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		494DFA7D1F0D783B00C6EAD9 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageCell.swift; path = Views/PostImageCell.swift; sourceTree = "<group>"; };
 		494DFA7F1F0E761300C6EAD9 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostHeaderCell.swift; path = Views/PostHeaderCell.swift; sourceTree = "<group>"; };
 		494DFA811F0E79CE00C6EAD9 /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostActionCell.swift; path = Views/PostActionCell.swift; sourceTree = "<group>"; };
+		494DFA831F0EA1A000C6EAD9 /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LikeService.swift; path = Services/LikeService.swift; sourceTree = "<group>"; };
+		494DFA851F0EBC4500C6EAD9 /* FollowService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FollowService.swift; path = Services/FollowService.swift; sourceTree = "<group>"; };
+		494DFA871F0EC59F00C6EAD9 /* FindFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FindFriends.storyboard; path = Storyboards/FindFriends.storyboard; sourceTree = "<group>"; };
+		494DFA891F0EC79C00C6EAD9 /* FindFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsCell.swift; path = Views/FindFriendsCell.swift; sourceTree = "<group>"; };
 		748FD9D2BC0A1725E5A65C47 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		D4B056F81D4983A0F92711CC /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				49367E561F0AD84E0097BCD4 /* Main.storyboard */,
+				494DFA871F0EC59F00C6EAD9 /* FindFriends.storyboard */,
 				494DFA7A1F0D621300C6EAD9 /* Home.storyboard */,
 				49367E451F06D06E0097BCD4 /* Login.storyboard */,
 			);
@@ -163,6 +172,8 @@
 				49367E4F1F0AA4D70097BCD4 /* UserService.swift */,
 				494DFA701F0D3A7200C6EAD9 /* StorageService.swift */,
 				494DFA721F0D3CDA00C6EAD9 /* PostService.swift */,
+				494DFA831F0EA1A000C6EAD9 /* LikeService.swift */,
+				494DFA851F0EBC4500C6EAD9 /* FollowService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -191,6 +202,7 @@
 				494DFA7D1F0D783B00C6EAD9 /* PostImageCell.swift */,
 				494DFA7F1F0E761300C6EAD9 /* PostHeaderCell.swift */,
 				494DFA811F0E79CE00C6EAD9 /* PostActionCell.swift */,
+				494DFA891F0EC79C00C6EAD9 /* FindFriendsCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -278,6 +290,7 @@
 				49367E3B1F06C66B0097BCD4 /* LaunchScreen.storyboard in Resources */,
 				49367E571F0AD84E0097BCD4 /* Main.storyboard in Resources */,
 				49367E411F06C68E0097BCD4 /* GoogleService-Info.plist in Resources */,
+				494DFA881F0EC59F00C6EAD9 /* FindFriends.storyboard in Resources */,
 				494DFA7B1F0D621400C6EAD9 /* Home.storyboard in Resources */,
 				49367E2C1F069CB90097BCD4 /* Assets.xcassets in Resources */,
 				49367E461F06D06E0097BCD4 /* Login.storyboard in Resources */,
@@ -339,14 +352,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494DFA861F0EBC4500C6EAD9 /* FollowService.swift in Sources */,
 				49367E4B1F0A8D610097BCD4 /* User.swift in Sources */,
 				494DFA711F0D3A7200C6EAD9 /* StorageService.swift in Sources */,
 				49367E481F06D11F0097BCD4 /* LoginViewController.swift in Sources */,
 				494DFA6C1F0C210400C6EAD9 /* MainTabBarController.swift in Sources */,
 				49367E501F0AA4D70097BCD4 /* UserService.swift in Sources */,
 				494DFA821F0E79CE00C6EAD9 /* PostActionCell.swift in Sources */,
+				494DFA841F0EA1A000C6EAD9 /* LikeService.swift in Sources */,
 				494DFA751F0D4F8000C6EAD9 /* Post.swift in Sources */,
 				494DFA7E1F0D783B00C6EAD9 /* PostImageCell.swift in Sources */,
+				494DFA8A1F0EC79C00C6EAD9 /* FindFriendsCell.swift in Sources */,
 				494DFA771F0D556E00C6EAD9 /* UIImage+Size.swift in Sources */,
 				49367E5D1F0BEF5B0097BCD4 /* HomeViewController.swift in Sources */,
 				494DFA6E1F0C361100C6EAD9 /* MGPhotoHelper.swift in Sources */,
